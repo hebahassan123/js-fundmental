@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Info </title>
+    <style>
+        body{
+            background-color: rgb(42, 143, 143);
+        }
+        span{
+            color: rgb(50, 12, 158);
+            background: white;
+        }
+    </style>
+    </head>
+    <body>
+        <h1> Entering User Info</h1><hr>
+        <script>
+            var name = prompt("Please Enter Your Name?",  "Heba");
+            document.write("<span> Welcome Dear Guest </span>" +name+ "<br/>");
+            var num1 = prompt("Please Enter Your Phone Number?" , "544444444333");
+            document.write("<span>Your Telephone Number is </span>" +num1+ "<br/>" );
+            var num2 = prompt("Please Enter Your Mobile Number", "011377655433");
+            document.write("<span> Your Mobile Number is</span>" +num2+ "<br/>");
+            var gmail = prompt("Please Enter Your Email Adress?", "hebahassan78@gmail.com");
+            document.write("<span> Your Email Adress is </span>" +gmail+ "<br/>");
+            var today = new Date();
+            today.setYear(2022);
+            today.setMonth(4);
+            today.setDate(5);
+            document.write("<br/><br/><br/>" +"<span> Today is </span>" +today+ "<br/>");
+
+        </script>
+  </body>
+</html>
